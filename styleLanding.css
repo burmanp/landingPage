@@ -1,0 +1,179 @@
+@import "https://fonts.googleapis.com/css?family=Lato:400,700";
+
+body{
+  font-family: 'Lato', sans-serif;
+	background-color: #c6538c;
+	margin: 5px;
+  text-align: center;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  min-height: 45px;
+  width: 100%;
+  padding: 5px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #c65300;
+}
+
+section{
+  border: px solid;
+  margin: 40px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+li{
+  list-style: none;
+}
+
+label{
+  color: lightgrey;
+  font-size: 20px;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+
+form{  
+  margin: 20px 100px;
+  padding: 5px;
+}
+
+#header-img{
+	width: 90px;
+	height: 90px;
+	border: solid;
+	border-width: 1px;
+	border-color: #ffff99;
+	border-radius: 45px; 
+  margin: 0;
+}
+
+#logo-label{
+  position: fixed;
+  padding: 2px ;
+  margin-bottom: 10px;
+  text-align: left;
+  font-size: 35px;
+  color: pink;
+  left: 130px;
+}
+
+nav > ul{
+  width: 30vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+}
+
+@media (max-width: 800px) {
+      nav > ul {
+        flex-direction: row-reverse;
+        margin: auto;      
+        }
+    }
+
+#nav-bar{
+  margin-top: 5px;
+  margin-right: 50px;
+}
+
+.nav-link{
+  text-decoration: none;
+  background-color: pink;   
+  padding: 10px; 
+  border-radius: 0 24px 0 24px;
+}
+
+#about {
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+
+}
+
+#yoga{
+  margin: 40px 100px;
+  padding: 10px;
+  color: indigo;
+  border: 5px solid lightgrey;
+  border-radius: 40px;
+}
+
+
+#yoga .yogacat{  
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-radius: 50px;
+}
+
+.package > h3 {
+  color: indigo;
+  background-color: cornsilk;
+  width: 95%;  
+  margin-bottom: 1px;
+}
+
+.package > h4 {
+  color: pink;
+  font-size: 18px;
+  border: 1px solid;
+  padding: 5px 50px;
+}
+
+.package > ol {
+  color: indigo;  
+  margin: auto;
+  text-align: left;
+  text-transform: capitalize;
+  text-shadow: 2px 2px grey;
+}
+
+.package > ol > li {
+  border: px solid;
+  padding-bottom: 5px; 
+}
+
+.package > button {
+  border: 0;
+  margin: 10px 0;
+  padding: 4px 15px;
+  background-color: pink;
+  font-weight: 400;
+}
+
+.package > button:hover {
+  background-color: limegreen;
+}
+
+#footer{
+  padding: 5px;
+  margin-top: 1px;
+  text-align: right;
+  background-color: pink;
+  color: #c65300;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+#footer > ul {
+  display: flex;
+  justify-content: flex-end;
+  margin: auto;
+}
+
+#footer > ul > li {
+  padding: 0 10px;
+}
+
+#footer > p {
+  margin: auto;
+}

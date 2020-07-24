@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>YogaCat Studio</title>
+	<link rel="stylesheet" type="text/css" href="styleLanding.css">
+	<style type="text/css">
+
+		@media (max-width: 800px) {
+		  header {
+		    background-color: #c6538c;
+  			}
+		}
+
+		#offers {
+			 margin-top: 20px;
+			 margin-bottom: 40px;
+			 display: flex;
+			 flex-direction: row;
+			 justify-content: center;
+		}
+
+		#offers .package{
+	  		display: flex;
+	  		flex-direction: column;
+	  		align-items: center;
+	  		width: calc(100% / 3);
+	  		margin: 10px;
+	  		padding: 5px;
+	  		border: 1px solid lightgrey;
+	  		border-radius: 20px;  
+		}
+
+	</style>
+</head>
+<body>
+	<header id="header">
+		<label for="header-img" id="logo-label">YogaCat<br>Studio</label>
+		<img id="header-img" src="https://i.ibb.co/2y1MXmb/YogaCat.png" alt="YogaCat logo">
+		<nav id="nav-bar">
+			<ul>
+				<li><a class="nav-link" href="#namaste">Namaste</a></li>
+				<li><a class="nav-link" href="#about">About</a></li>
+				<li><a class="nav-link" href="#offers">Offers</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<section id="namaste">
+	<form id="form" action="https://www.freecodecamp.com/email-submit" target="_blank">
+		<label for="email">Enter your email to pet the cat <i>yogi</i> and receive discount codes:</label><br>
+		<input type="email" name="email" id="email" placeholder="Email"><br>
+		<input type="submit" value="Purr" id="submit" ><br>
+	</form>
+
+	<div id="yoga">
+
+		<div class="type">
+
+			<img class="yogacat" src="https://tinyurl.com/yajcpocq" alt="tabby cat">
+			<h2>Vinyasa Yoga <em>aka Tabby Yoga</em></h2>
+			<p>Just like tabby kitties are friendly to newbies and crazy cat people alike, everyone can enjoy this <span style="color: lightgreen;">FLOW</span> yoga.</p>
+		</div>
+
+		<div class="type">
+			<img class="yogacat" src="https://tinyurl.com/y8qhphfk" alt="tuxedo cat">
+			<h2>Ashtanga Yoga <em>aka Tuxedo Yoga</em></h2>
+			<p>Ever encountered a tuxedo? Well, you're in for a treat if you fancy a little more challenge - they don't call this <b>EIGHT LIMBS</b> yoga for no reason.</p>
+		</div>
+
+		<div class="type">
+			<img class="yogacat" src="https://tinyurl.com/y8fq72nf" alt="spynx cat">
+			<h2>Bikram Yoga <em>aka Sphynx Yoga</em></h2>			
+			<p>Things are getting so hot even the sphynxes have done away with their fur. As such this Bikram or <span style="color: orange;">HOT</span> yoga is not for the faint-hearted as practices are held in our <i>32C / 90F</i> studio.</p>
+		</div>
+
+	</div>
+	</section>
+
+	
+	<section id="about">
+	<iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/q99rhZlYlAo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</section>
+
+	<section id="offers">
+			<div class="package" id="silver">
+				<h3>Silver Package</h3>
+				<h4>£150/mth</h4>
+				<ol>
+					<li>1 class a week</li>
+					<li>Tabby <i>OR</i> Tuxedo</li>
+					<li>Free yoga mat</li>
+				</ol>
+				<button>Select</button>
+
+			</div>
+			<div class="package" id="gold">
+				<h3>Gold Package</h3>
+				<h4>£200/mth</h4>
+				<ol>
+					<li>2 classes a week</li>
+					<li>Tabby <i>AND</i> Tuxedo</li>
+					<li>Free yoga mat</li>
+				</ol>
+				<button>Select</button>
+			</div>
+			<div class="package" id="platinum">
+				<h3>Platinum Package</h3>
+				<h4>£300/mth</h4>
+				<ol>
+					<li>5 classes a week</li>
+					<li><i>ANY</i> yoga</li>
+					<li>Free premium yoga mat</li>
+					<li>bring a friend once a month</li>
+				</ol>
+				<button>Select</button>
+			</div>
+
+	</section>
+	
+	<div id="footer">
+		<ul>
+        	<li><a href="#">Privacy</a></li>
+        	<li><a href="#">Terms</a></li>
+        	<li><a href="#">Contact</a></li>
+      </ul>
+		<p>Copyright &copy; 2020 YogaCat Studio.</p>	
+	</div>
+	
+
+<script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>	
+</body>
+</html>
